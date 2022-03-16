@@ -4,6 +4,7 @@ account_id = ""
 zone_id = ""
 route = ""
 
+workers_dev = true
 
 [vars]
 api_base_route = "/abcd1234"
