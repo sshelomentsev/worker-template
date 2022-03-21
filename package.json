@@ -4,8 +4,8 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "esbuild --bundle --format=iife --platform=node --minify --outdir=dist ./src/index.js",
-        "dev": "miniflare --live-reload --debug",
-        "deploy": "wrangler publish"
+        "deploy": "wrangler publish",
+        "dev": "miniflare --live-reload --debug"
     },
     "license": "MIT",
     "devDependencies": {
